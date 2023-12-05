@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(void){
+    int a,b;
+    float c,d;
+    scanf("%d%d",&a,&b);
+    scanf("%f%f",&c,&d);
+    int integer_sum=a+b;
+    int integer_diff=a-b;
+    float float_sum=c+d;
+    float float_diff=c-d;
+    printf("%d %d\n",integer_sum,integer_diff);
+    printf("%.1f %.1f\n",float_sum,float_diff);
+    return 0; 
+}
